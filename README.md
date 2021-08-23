@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/hansenmakangiras/esppt-pbb.svg?branch=main)](https://travis-ci.com/hansenmakangiras/esppt-pbb)
+[![Build Status](https://app.travis-ci.com/hansenmakangiras/esppt-pbb.svg?branch=main)](https://app.travis-ci.com/github/hansenmakangiras/esppt-pbb)
 [![StyleCI](https://github.styleci.io/repos/399198629/shield?branch=main)](https://github.styleci.io/repos/399198629)
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" alt=""></p>
