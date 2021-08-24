@@ -56,20 +56,21 @@
                 <!--end::Input-->
             </div>
             <!--end::Input group-->
+            <!--begin::Input group-->
+            <div class="fv-row mb-10">
+                <label class="form-check form-check-custom form-check-solid">
+                    <input class="form-check-input" type="checkbox" name="remember"/>
+                    <span class="form-check-label fw-bold text-gray-700 fs-6">{{ __('Remember me') }}
+        </span>
+                </label>
+            </div>
+            <!--end::Input group-->
             <!--begin::Actions-->
             <div class="text-center">
                 <!--begin::Submit button-->
                 <x-button id="kt_sign_in_submit" class="btn-lg btn-primary w-100 mb-5">
                     {{ __('Log in') }}
                 </x-button>
-                <div class="d-flex align-items-center">
-                    <!--begin::Checkbox-->
-                    <label class="form-check form-check-custom form-check-solid me-10">
-                        <input id="remember_me" class="form-check-input h-20px w-20px" type="checkbox" name="remember">
-                        <span class="form-check-label fw-bold">{{ __('Remember me') }}</span>
-                    </label>
-                    <!--end::Checkbox-->
-                </div>
                 <!--end::Submit button-->
 
                 <!--begin::Separator-->
