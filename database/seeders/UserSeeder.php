@@ -88,8 +88,9 @@ class UserSeeder extends Seeder
         $user->assignRole($role->name);
 
         $dummyInfo = [
-            'nop_pbb'  => $faker->randomDigitNotNull,
-            'nik'    => $faker->randomDigitNotNull,
+            'nop_pbb'  => $faker->numberBetween(1000000,10000000),
+            'nik'    => $faker->numberBetween(1000,100000),
+            'avatar'    => $faker->image,
             'tahun_sppt'  => $faker->year,
             'no_telepon' => $faker->phoneNumber,
             'status_hubungan'  => $faker->boolean,

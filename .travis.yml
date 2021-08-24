@@ -1,7 +1,6 @@
 dist: focal
 language: php
 php:
-  - '7.4'
   - '8.0'
 jobs:
   fast_finish: true
