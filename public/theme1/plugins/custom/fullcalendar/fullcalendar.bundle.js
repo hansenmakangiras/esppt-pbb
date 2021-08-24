@@ -6614,7 +6614,7 @@ var FullCalendar = (function (exports) {
         var endMarker = framingRange.end;
         var instanceStarts = [];
         while (dayMarker < endMarker) {
-            var instanceStart
+            var instanceStart 
             // if everyday, or this particular day-of-week
             = void 0;
             // if everyday, or this particular day-of-week
@@ -9108,7 +9108,7 @@ var FullCalendar = (function (exports) {
             return (createElement("td", { ref: chunkConfig.elRef },
                 createElement("div", { className: "fc-scroller-harness" + (isLiquid ? ' fc-scroller-harness-liquid' : '') },
                     createElement(Scroller, { ref: this.scrollerRefs.createRef(sectionKey), elRef: this.scrollerElRefs.createRef(sectionKey), overflowY: overflowY, overflowX: !props.liquid ? 'visible' : 'hidden' /* natural height? */, maxHeight: sectionConfig.maxHeight, liquid: isLiquid, liquidIsAbsolute // because its within a harness
-                        : true }, content))))
+                        : true }, content))));
         };
         SimpleScrollGrid.prototype._handleScrollerEl = function (scrollerEl, key) {
             var section = getSectionByKey(this.props.sections, key);
@@ -13607,7 +13607,7 @@ var FullCalendar = (function (exports) {
             if (!slatCoords) {
                 return null;
             }
-            return segs.map(function (seg, i) { return (createElement(NowIndicatorRoot, { isAxis: false, date: date,
+            return segs.map(function (seg, i) { return (createElement(NowIndicatorRoot, { isAxis: false, date: date, 
                 // key doesn't matter. will only ever be one
                 key: i }, function (rootElRef, classNames, innerElRef, innerContent) { return (createElement("div", { ref: rootElRef, className: ['fc-timegrid-now-indicator-line'].concat(classNames).join(' '), style: { top: slatCoords.computeDateTop(seg.start, date) } }, innerContent)); })); });
         };

@@ -307,7 +307,7 @@ var KTUtil = function() {
 
             if ( value ) {
                 value = parseInt(value.trim());
-            } 
+            }
 
             return value;
         },
@@ -1219,7 +1219,7 @@ var KTUtil = function() {
                     animation = animations[t];
                 }
             }
-            
+
             KTUtil.addClass(el, animationName);
 
             KTUtil.one(el, animation, function() {
@@ -1385,7 +1385,7 @@ var KTUtil = function() {
 
             color = (color.indexOf("#")>=0) ? color.substring(1,color.length) : color;
             amount = parseInt((255*amount)/100);
-            
+
             return color = `#${addLight(color.substring(0,2), amount)}${addLight(color.substring(2,4), amount)}${addLight(color.substring(4,6), amount)}`;
         },
 
@@ -1397,7 +1397,7 @@ var KTUtil = function() {
 
                 return c;
             }
-              
+
             color = (color.indexOf("#")>=0) ? color.substring(1,color.length) : color;
             amount = parseInt((255*amount)/100);
 
@@ -1531,7 +1531,7 @@ var KTUtil = function() {
             return hex;
         },
 
-        isInViewport: function(element) {        
+        isInViewport: function(element) {
             var rect = element.getBoundingClientRect();
 
             return (

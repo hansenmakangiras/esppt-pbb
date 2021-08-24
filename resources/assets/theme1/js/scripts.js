@@ -16,6 +16,8 @@ window.KTSticky = require('./../../core/js/components/sticky.js');
 window.KTSwapper = require('./../../core/js/components/swapper.js');
 window.KTToggle = require('./../../core/js/components/toggle.js');
 window.KTBlockUI = require('./../../core/js/components/blockui.js');
+window.KTAlpine = require('./../../core/js/components/blockui.js');
+window.KTAlpine = require('./../../core/js/components/alpinejs.js');
 
 // Layout base js
 window.KTApp = require('./../../extended/js/layout/app.js');
@@ -23,3 +25,5 @@ window.KTLayoutAside = require('./layout/aside.js');
 window.KTLayoutExplore = require('./layout/explore.js');
 window.KTLayoutSearch = require('./layout/search.js');
 window.KTLayoutToolbar = require('./layout/toolbar.js');
+
+
