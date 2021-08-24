@@ -74,6 +74,6 @@ For setup, usage guidance, and all other docs - please consult the [Project Wiki
 
 ## License
 
-This boilerplate, much like the Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The contents of this repository is released under the [MIT license](https://opensource.org/licenses/MIT).
 
 
